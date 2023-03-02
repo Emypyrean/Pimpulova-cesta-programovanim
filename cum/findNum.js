@@ -1,17 +1,8 @@
-function findNum(nums) {
-	let minNumber = nums[0];
-	let maxNumber = nums[0];
-
-	for (let i = 1; i < nums.length; i++) {
-		if (numbers[i] < minNumber) {
-			minNumber = nums[i];
-		}
-		if (numbers[i] > maxNumber) {
-			maxNumber = nums[i];
-		}
-	}
-
-	return { min: minNumber, max: maxNumber };
+const findMin = require("./cum/findMin.js");
+const findMax = require("./cum/findMax.js");
+function findNum(nums, type) {
+	if (type === "max") return findMax(nums);
+	if (type === "min") return findMin(nums);
 }
 
 module.exports = findNum;
