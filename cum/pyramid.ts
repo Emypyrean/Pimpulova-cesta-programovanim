@@ -1,4 +1,4 @@
-function pyramid(height) {
+export function pyramid(height: number) {
 	for (let i = 1; i <= height; i++) {
 		let stair = "";
 		for (let k = 0; k < i; k++) {
@@ -14,5 +14,3 @@ function pyramid(height) {
 		console.log(stair);
 	}
 }
-
-module.exports = pyramid;

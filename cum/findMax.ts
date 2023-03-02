@@ -1,5 +1,5 @@
 //Find biggest number in an array
-function findMax(array) {
+export function findMax(array: number[]) {
 	let max = array[0];
 	for (let i = 1; i < array.length; i++) {
 		if (array[i] > max) {
@@ -8,4 +8,3 @@ function findMax(array) {
 	}
 	return `The biggest number is ${max}.`;
 }
-module.exports = findMax;
