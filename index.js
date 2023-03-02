@@ -11,14 +11,13 @@ const findMin = require("./cum/findMin.js");
 console.log(findMin(ARRAY));
 
 //najít největší nebo nejmenší číslo podle parametru (max/min)
-//findNum([7, 8, 9, 6]);
-
-//Sečíst čísla od 1 do 100, která nejsou dělitelná 5
 let nums = [8, 6, 5, 3, 2, 14];
 const { min, max } = findNums(nums);
 const findNum = require("./cum/findNum.js");
 console.log(min);
 console.log(max);
+
+//Sečíst čísla od 1 do 100, která nejsou dělitelná 5
 
 const factorial = require("./cum/factorial.js");
 console.log(factorial(5));
