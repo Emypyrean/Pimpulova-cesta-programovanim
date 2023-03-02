@@ -11,7 +11,7 @@ const findMin = require("./cum/findMin.js");
 //console.log(findMin(ARRAY));
 
 let nums = [8, 6, 5, 3, 2, 14];
-const findNums = require("./cum/findNum.js");
+//const findNums = require("./cum/findNum.js");
 //console.log(findNums(nums, min));
 
 //Sečíst čísla od 1 do 100, která nejsou dělitelná 5

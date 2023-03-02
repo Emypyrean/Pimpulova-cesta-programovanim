@@ -9,7 +9,7 @@ function pyramid(height) {
 	for (let i = height - 1; i > 0; i--) {
 		let stair = "";
 		for (let k = 0; k < i; k++) {
-			stair += symbol;
+			stair += "X";
 		}
 		console.log(stair);
 	}
